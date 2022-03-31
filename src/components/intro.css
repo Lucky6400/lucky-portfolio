@@ -1,0 +1,76 @@
+.fs-large{
+    font-size: 2rem;
+}
+.fs-name{
+    font-size: 4rem;
+    font-weight: 900;
+}
+.work{
+    height: 50px;
+    overflow: hidden;
+}
+.work-w{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+.btn-download{
+    border: none;
+    outline: none;
+    background: #3363E1;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.btn-download:hover{
+    background: black;
+}
+@keyframes move {
+    18%{
+        transform: translateY(-50px);
+    }
+    33%{
+        transform: translateY(-100px);
+    }
+    50%{
+        transform: translateY(-150px);
+    }
+    67%{
+        transform: translateY(-200px);
+
+    }
+    84%{
+        transform: translateY(-250px);
+    }
+    100%{
+        transform: translateY(-300px);
+    }
+}
+
+.work-w>.text-primary{
+    font-size: 2.5rem;
+}
+.right-int{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    background: #3363E1;
+}
+.img-me{
+    width: 100%;
+}
+
+@media only screen and (min-width:0px) and (max-width:567px){
+    body{
+        margin: 0 !important;
+    }
+    .work-w>.text-primary{
+        font-size: 1.5rem;
+    }
+    .fs-large{
+        font-size: 1rem;
+    }
+    .fs-name{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+}

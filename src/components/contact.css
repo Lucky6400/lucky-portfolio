@@ -1,0 +1,21 @@
+.discuss{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.low-res{
+    width: 30px;
+    height: 30px;
+}
+.input{
+    border: none;
+    border-bottom: 1px solid rgb(37, 77, 255);
+    padding: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+.text-area{
+    border-radius: 2px;
+    border: 1px solid rgb(13, 90, 190);
+    width: 100%;
+    margin-top: 10px;
+}
