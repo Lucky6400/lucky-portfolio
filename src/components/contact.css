@@ -13,9 +13,16 @@
     width: 100%;
     margin-top: 10px;
 }
+.input:focus{
+    outline: none;
+}
 .text-area{
     border-radius: 2px;
     border: 1px solid rgb(13, 90, 190);
     width: 100%;
     margin-top: 10px;
+    resize: none;
+}
+.text-area:focus{
+    outline: none;
 }

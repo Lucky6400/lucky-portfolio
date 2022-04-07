@@ -7,7 +7,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 const About = () => {
   return (
-    <div className="mt-4 row justify-content-center">
+    <div className="mt-4 row justify-content-center" id="about">
         <div className="col-lg-5 mx-3">
             <img src={costa} alt="" className="col-lg-6 mt-5 img-s"/>
         </div>

@@ -25,7 +25,7 @@ const Contact = () => {
 
 
   return (
-    <div className="mt-4 pt-3">
+    <div id="contact" className="mt-4 pt-3">
       <div className="row justify-content-center">
           <div className="col-lg-5 mx-2 ">
               <h1 className="discuss">Any queries? Feel free to contact</h1>
