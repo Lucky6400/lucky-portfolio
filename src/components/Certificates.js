@@ -1,8 +1,16 @@
 import React from 'react'
-import docker from '../img/dockerCert.png'
 import react from '../img/reactCert.png'
 import mongo from '../img/mongoDBCert.png'
 import webdev from '../img/webdevCert.png'
+import reactlogo from '../img/react.png'
+import node from '../img/node.png'
+import php from '../img/php.png'
+import js from '../img/js.png'
+import mern from '../img/mern.png'
+import laravel from '../img/laravel.png'
+import sass from '../img/sass.png'
+import docker from '../img/docker.png'
+
 import './certificates.css'
 
 const Certificates = () => {
@@ -12,30 +20,40 @@ const Certificates = () => {
                 <h1 className="fw-bold">Certificates</h1>
                 <p>Things obtained from hardwork and determination</p>
             </div>
-            <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src={react} className="d-block w-100" alt="..." />
+            <div className="d-flex justify-content-center position-relative">
+            <div className="skill-cont">
+                        Certifications and Courses
                     </div>
-                    <div className="carousel-item">
-                        <img src={webdev} className="d-block w-100" alt="..." />
+                <div className="circular-skill">
+                    
+                    <div className="skill-one">
+                        <img src={reactlogo} alt="" className="img-skilled" />
                     </div>
-                    <div className="carousel-item">
-                        <img src={docker} className="d-block w-100" alt="..." />
+                    <div className="skill-two">
+                        <img src={sass} alt="" className="img-skilled" />
                     </div>
-                    <div className="carousel-item">
-                        <img src={mongo} className="d-block w-100" alt="..." />
+                    <div className="skill-three">
+                        <img src={node} alt="" className="img-skilled" />
                     </div>
+                    <div className="skill-four">
+                        <img src={php} alt="" className="img-skilled" />
+                    </div>
+                    <div className="skill-five">
+                        <img src={docker} alt="" className="img-skilled" />
+                    </div>
+                    <div className="skill-six">
+                        <img src={js} alt="" className="img-skilled" />
+                    </div>
+                    <div className="skill-seven">
+                        <img src={mern} alt="" className="img-skilled" />
+                    </div>
+                    <div className="skill-eight">
+                        <img src={laravel} alt="" className="img-skilled" />
+                    </div>
+
                 </div>
-                <button className="carousel-control-prev bg-primary bg-gradient" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next bg-primary bg-gradient" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
             </div>
+
         </div>
     )
 }

@@ -1,75 +1,131 @@
-.fs-large{
+.fs-large {
     font-size: 2rem;
 }
-.fs-name{
+
+.fs-name {
     font-size: 4rem;
     font-weight: 900;
 }
-.work{
-    height: 50px;
+
+.work {
+    height: 70px;
     overflow: hidden;
 }
-.work-w{
+
+.work-w {
     height: 100%;
-    animation: move 10s ease-in-out infinite alternate;
+    animation: move 4s ease-in-out infinite alternate;
 }
-.btn-download{
+
+.btn-download {
     border: none;
     outline: none;
-    background: #3363E1;
+    background: rgb(129,0,242);
+background: linear-gradient(356deg, rgba(129,0,242,1) 47%, rgba(214,72,235,1) 100%);
     color: white;
     padding: 10px;
     font-size: 20px;
     margin-top: 10px;
     margin-right: 10px;
 }
-.btn-download:hover{
+
+.btn-download:hover {
     background: black;
 }
-@keyframes move {
-    18%{
-        transform: translateY(-50px);
-    }
-    33%{
-        transform: translateY(-100px);
-    }
-    50%{
-        transform: translateY(-150px);
-    }
-    67%{
-        transform: translateY(-200px);
 
+.intro-left {
+    position: relative;
+}
+
+.blob {
+    position: absolute;
+    animation: blobs 5s ease-in-out infinite alternate;
+    /* top: 0; */
+    /* left: 0; */
+    height: 400px;
+    width: 400px;
+    z-index: -2;
+    opacity: 0.3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml;utf8, %3Csvg width=%22100%25%22 height=%22100%25%22 viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 %3E %3Cdefs%3E %3CclipPath id=%22shape%22%3E %3Cpath fill=%22currentColor%22 d=%22M785%2C637.5Q659%2C775%2C502%2C772Q345%2C769%2C178%2C634.5Q11%2C500%2C154.5%2C325Q298%2C150%2C523%2C110Q748%2C70%2C829.5%2C285Q911%2C500%2C785%2C637.5Z%22%3E%3C%2Fpath%3E %3C%2FclipPath%3E %3C%2Fdefs%3E %3Cg clip-path=%22url(%23shape)%22%3E %3Cpath fill=%22%23444cf7%22 d=%22M785%2C637.5Q659%2C775%2C502%2C772Q345%2C769%2C178%2C634.5Q11%2C500%2C154.5%2C325Q298%2C150%2C523%2C110Q748%2C70%2C829.5%2C285Q911%2C500%2C785%2C637.5Z%22 %2F%3E %3C%2Fg%3E %3C%2Fsvg%3E");
+}
+.blob2 { 
+    position: absolute;
+    animation: blobs 5s ease-in-out infinite alternate;
+    top: 0; 
+     left: 0.5;
+    height: 600px;
+    width: 600px;
+    z-index: -2;
+    opacity: 0.3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml;utf8, %3Csvg width=%22100%25%22 height=%22100%25%22 viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 %3E %3Cdefs%3E %3CclipPath id=%22shape%22%3E %3Cpath fill=%22currentColor%22 d=%22M828.5%2C708.5Q741%2C917%2C519%2C884.5Q297%2C852%2C242.5%2C676Q188%2C500%2C255.5%2C346.5Q323%2C193%2C520%2C158.5Q717%2C124%2C816.5%2C312Q916%2C500%2C828.5%2C708.5Z%22%3E%3C%2Fpath%3E %3C%2FclipPath%3E %3C%2Fdefs%3E %3Cg clip-path=%22url(%23shape)%22%3E %3Cpath fill=%22%23ffffff%22 d=%22M828.5%2C708.5Q741%2C917%2C519%2C884.5Q297%2C852%2C242.5%2C676Q188%2C500%2C255.5%2C346.5Q323%2C193%2C520%2C158.5Q717%2C124%2C816.5%2C312Q916%2C500%2C828.5%2C708.5Z%22 %2F%3E %3C%2Fg%3E %3C%2Fsvg%3E");
+  }
+  
+@keyframes blobs {
+    0% {
+        -webkit-transform: rotate(0deg) skewX(0deg);
+        transform: scale(0.9, 1.2);
     }
-    84%{
-        transform: translateY(-250px);
+
+    25% {
+        transform: scale(0.8, 0.6);
     }
-    100%{
-        transform: translateY(-300px);
+
+    50% {
+        transform: scale(1.1, 0.8);
+    }
+
+    75% {
+        transform: scale(1, 1.2);
+    }
+
+    100% {
+        -webkit-transform: rotate(-360deg) skewX(0deg);
+        transform: scale(0.9, 1.2);
     }
 }
 
-.work-w>.text-primary{
+@keyframes move {
+    from {
+        transform: translateY(0%)
+    }
+
+    to {
+        transform: translateY(-340%)
+    }
+}
+
+.work-w>.text-primary {
     font-size: 2.5rem;
 }
-.right-int{
+
+.right-int {
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
-    background: #3363E1;
+    position: relative;
 }
-.img-me{
+
+.img-me {
     width: 100%;
 }
 
-@media only screen and (min-width:0px) and (max-width:567px){
-    body{
+
+@media only screen and (min-width:0px) and (max-width:567px) {
+    body {
         margin: 0 !important;
     }
-    .work-w>.text-primary{
+
+    .work-w>.text-primary {
         font-size: 1.5rem;
     }
-    .fs-large{
+
+    .fs-large {
         font-size: 1rem;
     }
-    .fs-name{
+
+    .fs-name {
         font-size: 2rem;
         font-weight: 900;
     }

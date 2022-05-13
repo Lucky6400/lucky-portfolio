@@ -1,21 +1,112 @@
-.carousel-control-prev{
-    height: 80px;
-    width: 80px;
-    opacity: 1 !important;
-    top: 44%;
+.circular-skill{
+    width: 600px;
+    height: 600px;
     border-radius: 50%;
-}
-.carousel-control-next{
-    height: 80px;
-    width: 80px;
-    opacity: 1 !important;
-    top: 44%;
-    border-radius: 50%;
+    /* box-shadow: 0 0 10px rgb(136, 136, 136); */
+    position: relative;
+    animation: rotator 22s 0s infinite linear;
+    border: 1px solid grey;
+    margin: 30px 0px;
 }
 
-@media only screen and (max-width: 768px) {
-    .carousel-control-next, .carousel-control-prev{
-        height: 40px;
-        width: 40px;
+.skill-cont{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    background: rgb(129,0,242);
+background: linear-gradient(356deg, rgba(129,0,242,1) 47%, rgba(214,72,235,1) 100%);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 130px;
+    color: white;
+    animation: rotator01 2s 0s infinite linear;
+}
+.img-skilled{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: white;
+    box-shadow: 0 0 10px rgb(119, 119, 119);
+}
+@media only screen and (max-width: 768px){
+    .circular-skill{
+        height: 330px;
+        width: 330px;
+    }
+    .skill-cont{
+        height: 150px;
+        width: 150px;
+        font-size: 1rem;
+        padding-top: 50px;
+    }
+    .img-skilled{
+        height: 60px;
+        width: 60px;
+    }
+}
+.skill-one{
+    position: absolute;
+    top: -20px;
+    left: 45%;
+}
+.skill-two{
+    position: absolute;
+    top: 45%;
+    left: -20px;
+}
+.skill-three{
+    position: absolute;
+    bottom: -20px;
+    left: 45%;
+}
+.skill-four{
+    position: absolute;
+    right: -20px;
+    top: 45%;
+}
+.skill-five{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.skill-six{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.skill-seven{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+.skill-eight{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+
+@keyframes rotator {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotator01 {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(0deg);
     }
 }
