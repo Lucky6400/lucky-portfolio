@@ -101,6 +101,44 @@
         height: 60px;
         width: 60px;
     }
+    @keyframes changetext {
+        0%{
+            content: 'React JS: The Complete Guide, Udemy (2022)';
+            font-size: 0.7rem;
+        }
+        13%{
+            opacity: 0;
+        }
+        25%{
+            content: 'Web Development (PHP and MySQL), Testbook (2021-22)';
+            font-size: 0.7rem;
+            opacity: 1;
+        }
+        37%{
+            opacity: 0;
+        }
+        50%{
+            content: 'MERN Stack: CodeWithHarry YouTube (2022)';
+            font-size: 0.7rem;
+            opacity: 1;
+        }
+        62%{
+            opacity: 0;
+        }
+        75%{
+            content: 'SaSS: LamaDev YouTube (2022)';
+            font-size: 0.7rem;
+            opacity: 1;
+        }
+        88%{
+            opacity: 0;
+        }
+        100%{
+            content: 'The Complete JavaScript Course, Udemy (2022)';
+            font-size: 0.7rem;
+            opacity: 1;
+        }
+    }
 }
 
 .skill-one {
