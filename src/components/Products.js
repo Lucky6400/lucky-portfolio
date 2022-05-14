@@ -7,7 +7,7 @@ const Products = () => {
         <div className="mt-5 pt-4" id="projects">
             <div className="text-center">
                 <h1 className="fw-bold">Quality and perfection. It's Lucky's projects</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto.</p>
+                <p>A brief info about some of my best creations, contact me to know more.</p>
             </div> 
 
             <div className="row mt-4 pt-3 justify-content-center">

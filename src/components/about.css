@@ -15,7 +15,7 @@
     background: rgb(129, 0, 242);
     background: linear-gradient(356deg, rgba(129, 0, 242, 1) 47%, rgba(214, 72, 235, 1) 100%);
     border-radius: 15px;
-    width: 50%;
+    width: 70%;
     padding: 30px 20px;
     border: 0px solid transparent;
     margin-top: 100px;
@@ -111,10 +111,13 @@
 }
 
 .img-about{
-    height: 110px;
-    width: 130px;
-    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: 0px solid rgb(34, 34, 34);
     object-fit: contain;
+    background: rgba(255, 255, 255, 0.348);
 }
 
 @keyframes about {

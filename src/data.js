@@ -2,38 +2,32 @@ export const products = [
     {
       id: 1,
       name: "Google Keep Clone",
-      desc: "A great piece of creativity, truly inspiring, fantastic, amazing look, whatever.",
-      date: "12-December-2012"
+      desc: "MERN Stack app with CRUD, user specific notes, secure authorization.",
+      date: "March 2022"
     },
     {
       id: 2,
       name: "Multimedia App",
-      desc: "A great piece of creativity, truly inspiring, fantastic, amazing look, whatever.",
-      date: "12-December-2012"
+      desc: "A simple Audio  and Video player capable of playing any video or audio inside the disc.",
+      date: "February 2022"
     },
     {
       id: 3,
-      name: "React News App",
-      desc: "A great piece of creativity, truly inspiring, fantastic, amazing look, whatever.",
-      date: "12-December-2012"
+      name: "MERN E Commerce App",
+      desc: "Add to cart, sort, filter, secure authorization, awesome materialistic design.",
+      date: "March 2022 - May 2022"
     },
     {
       id: 4,
-      name: "MERN WWE Clone",
-      desc: "A great piece of creativity, truly inspiring, fantastic, amazing look, whatever.",
-      date: "12-December-2012"
+      name: "React Admin Dashboard",
+      desc: "React Js Admin Dashboard design using Sass, material ui, bootstrap 5, mui-charts. ",
+      date: "April 2022"
     },
     {
       id: 5,
       name: "LinkedIn Clone",
-      desc: "A great piece of creativity, truly inspiring, fantastic, amazing look, whatever.",
-      date: "12-December-2012"
-    },
-    {
-      id: 6,
-      name: "MERN Facebook Clone",
-      desc: "A great piece of creativity, truly inspiring, fantastic, amazing look, whatever.",
-      date: "12-December-2012"
+      desc: "React Js and Firebase used to create this app. Post, Sign in, Sign up feature and a beautiful UI.",
+      date: "March 2022"
     },
   ];
   

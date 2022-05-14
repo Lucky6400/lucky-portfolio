@@ -7,7 +7,7 @@ const Intro = () => {
   return (
 
 
-    <div className="">
+    <div className="" id="intro">
       <div className="row m-auto justify-content-between">
         <div className="col-lg-5 intro-left  mt-5">
           <div className="blob">
@@ -22,6 +22,8 @@ const Intro = () => {
               <div className="fw-bold text-primary">JavaScript</div>
               <div className="fw-bold text-primary">SaSS</div>
               <div className="fw-bold text-primary">Bootstrap</div>
+              <div className="fw-bold text-primary">PHP</div>
+              <div className="fw-bold text-primary">Docker</div>
             </div>
           </div>
           <p className="mt-3">
@@ -40,12 +42,16 @@ const Intro = () => {
             <button className="btn-download">View Projects</button>
           </a>
         </div>
-        <div className="col-lg-6 ps-2 pt-2 bg-theme right-int">
-          <div className="ms-5 ps-5">
+        <div className="col-lg-6 ps-2 pt-2 right-int pt-lg-4 pt-3">
+          <div className=" img-container-intro col-lg-7 mt-lg-5 mt-3">
             <img src={diego} alt="" className="img-me" />
+            <div className="rotator-motion bg-theme"></div>
           </div>
         </div>
       </div>
+      <a href="#intro">
+        <button title="Scroll to top" className="btn-scrl"> &#8593; </button>
+      </a>
     </div>
 
 

@@ -1,4 +1,4 @@
-.circular-skill{
+.circular-skill {
     width: 600px;
     height: 600px;
     border-radius: 50%;
@@ -7,9 +7,11 @@
     animation: rotator 22s 0s infinite linear;
     border: 1px solid grey;
     margin: 30px 0px;
+    transition: all 2s ease-in-out;
 }
 
-.skill-cont{
+
+.skill-cont {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -18,17 +20,62 @@
     margin: auto;
     height: 400px;
     width: 400px;
-    background: rgb(129,0,242);
-background: linear-gradient(356deg, rgba(129,0,242,1) 47%, rgba(214,72,235,1) 100%);
+    background: rgb(129, 0, 242);
+    background: linear-gradient(356deg, rgba(129, 0, 242, 1) 47%, rgba(214, 72, 235, 1) 100%);
     border-radius: 50%;
     text-align: center;
-    font-size: 3rem;
+    font-size: 1rem;
     font-weight: bold;
-    padding-top: 130px;
+    padding-top: 160px;
     color: white;
     animation: rotator01 2s 0s infinite linear;
 }
-.img-skilled{
+.skill-cont::before{
+    content: '';
+    animation: changetext 40s 5s infinite linear;
+    transition: all 5s ease-in-out;
+}
+
+@keyframes changetext {
+    0%{
+        content: 'React JS: The Complete Guide, Udemy (2022)';
+        font-size: 1.5rem;
+    }
+    13%{
+        opacity: 0;
+    }
+    25%{
+        content: 'Web Development (PHP and MySQL), Testbook (2021-22)';
+        font-size: 1.5rem;
+        opacity: 1;
+    }
+    37%{
+        opacity: 0;
+    }
+    50%{
+        content: 'MERN Stack: CodeWithHarry YouTube (2022)';
+        font-size: 1.5rem;
+        opacity: 1;
+    }
+    62%{
+        opacity: 0;
+    }
+    75%{
+        content: 'SaSS: LamaDev YouTube (2022)';
+        font-size: 1.5rem;
+        opacity: 1;
+    }
+    88%{
+        opacity: 0;
+    }
+    100%{
+        content: 'The Complete JavaScript Course, Udemy (2022)';
+        font-size: 1.5rem;
+        opacity: 1;
+    }
+}
+
+.img-skilled {
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -36,58 +83,69 @@ background: linear-gradient(356deg, rgba(129,0,242,1) 47%, rgba(214,72,235,1) 10
     background: white;
     box-shadow: 0 0 10px rgb(119, 119, 119);
 }
-@media only screen and (max-width: 768px){
-    .circular-skill{
+
+@media only screen and (max-width: 768px) {
+    .circular-skill {
         height: 330px;
         width: 330px;
     }
-    .skill-cont{
+
+    .skill-cont {
         height: 150px;
         width: 150px;
         font-size: 1rem;
         padding-top: 50px;
     }
-    .img-skilled{
+
+    .img-skilled {
         height: 60px;
         width: 60px;
     }
 }
-.skill-one{
+
+.skill-one {
     position: absolute;
     top: -20px;
     left: 45%;
 }
-.skill-two{
+
+.skill-two {
     position: absolute;
     top: 45%;
     left: -20px;
 }
-.skill-three{
+
+.skill-three {
     position: absolute;
     bottom: -20px;
     left: 45%;
 }
-.skill-four{
+
+.skill-four {
     position: absolute;
     right: -20px;
     top: 45%;
 }
-.skill-five{
+
+.skill-five {
     position: absolute;
     top: 10%;
     left: 10%;
 }
-.skill-six{
+
+.skill-six {
     position: absolute;
     top: 10%;
     right: 10%;
 }
-.skill-seven{
+
+.skill-seven {
     position: absolute;
     bottom: 10%;
     right: 10%;
 }
-.skill-eight{
+
+.skill-eight {
     position: absolute;
     bottom: 10%;
     left: 10%;
@@ -95,17 +153,20 @@ background: linear-gradient(356deg, rgba(129,0,242,1) 47%, rgba(214,72,235,1) 10
 
 
 @keyframes rotator {
-    from{
+    from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }
 }
+
 @keyframes rotator01 {
-    from{
+    from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(0deg);
     }

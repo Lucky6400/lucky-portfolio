@@ -28,8 +28,8 @@ const About = () => {
               <h3 className="fw-bolder text-white">IND</h3>
             </div>
             <div className="col-7">
-              <div className="row justify-content-center">
-                <div className="col-10">
+              <div className="w-100 d-flex justify-content-center">
+                <div>
                   <img src={costa} alt="" className="img-about w-100" />
                 </div>
               </div>

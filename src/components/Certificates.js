@@ -14,18 +14,23 @@ import docker from '../img/docker.png'
 import './certificates.css'
 
 const Certificates = () => {
+
+
+
+
+
     return (
         <div className="container-fluid pt-5">
             <div className="text-center w-100">
-                <h1 className="fw-bold">Certificates</h1>
+                <h1 className="fw-bold">Certificates/Courses</h1>
                 <p>Things obtained from hardwork and determination</p>
             </div>
             <div className="d-flex justify-content-center position-relative">
-            <div className="skill-cont">
-                        Certifications and Courses
-                    </div>
-                <div className="circular-skill">
+                <div className="skill-cont">
                     
+                </div>
+                <div className="circular-skill">
+
                     <div className="skill-one">
                         <img src={reactlogo} alt="" className="img-skilled" />
                     </div>
