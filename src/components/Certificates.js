@@ -1,23 +1,35 @@
-import React from 'react'
-import react from '../img/reactCert.png'
-import mongo from '../img/mongoDBCert.png'
-import webdev from '../img/webdevCert.png'
-import reactlogo from '../img/react.png'
-import node from '../img/node.png'
-import php from '../img/php.png'
-import js from '../img/js.png'
-import mern from '../img/mern.png'
-import laravel from '../img/laravel.png'
-import sass from '../img/sass.png'
-import docker from '../img/docker.png'
+import React, { useState, useEffect } from 'react';
+import reactlogo from '../img/react.png';
+import node from '../img/node.png';
+import php from '../img/php.png';
+import js from '../img/js.png';
+import mern from '../img/mern.png';
+import laravel from '../img/laravel.png';
+import sass from '../img/sass.png';
+import docker from '../img/docker.png';
+import './certificates.css';
+import TextTransition, { presets } from "react-text-transition";
 
-import './certificates.css'
+const TEXTS = [
+    "Node JS: The Complete Guide, Udemy (2022)",
+    "Web Development: Internship, Testbook (2021-22)",
+    "React JS: The Complete Guide , Udemy(2022)",
+    "SaSS: Full Course, FreeCodeCamp YouTube (2022)",
+    "The Complete JavaScript Course, Udemy (2022)",
+    "Getting Started with Docker, Simplilearn (2022)"
+];
 
 const Certificates = () => {
 
+    const [index, setIndex] = useState(0);
 
-
-
+    useEffect(() => {
+        const intervalId = setInterval(() =>
+            setIndex(index => index + 1),
+            3000 // every 3 seconds
+        );
+        return () => clearTimeout(intervalId);
+    }, []);
 
     return (
         <div className="container-fluid pt-5">
@@ -27,6 +39,12 @@ const Certificates = () => {
             </div>
             <div className="d-flex justify-content-center position-relative">
                 <div className="skill-cont">
+                    <div className="skill-text-cont">
+                        <TextTransition
+                        text={TEXTS[index % TEXTS.length]}
+                        springConfig={presets.stiff}
+                    />
+                    </div>
                     
                 </div>
                 <div className="circular-skill">

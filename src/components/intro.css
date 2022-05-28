@@ -80,6 +80,7 @@
     border: none;
     border-radius: 50%;
     transition: all 0.2s ease-in-out;
+    z-index: 999;
 }
 
 .btn-scrl:hover {

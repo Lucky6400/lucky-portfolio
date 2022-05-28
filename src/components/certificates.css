@@ -10,7 +10,6 @@
     transition: all 2s ease-in-out;
 }
 
-
 .skill-cont {
     position: absolute;
     top: 0;
@@ -24,55 +23,11 @@
     background: linear-gradient(356deg, rgba(129, 0, 242, 1) 47%, rgba(214, 72, 235, 1) 100%);
     border-radius: 50%;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.7rem;
     font-weight: bold;
     padding-top: 160px;
     color: white;
-    animation: rotator01 2s 0s infinite linear;
-}
-.skill-cont::before{
-    content: '';
-    animation: changetext 40s 5s infinite linear;
     transition: all 5s ease-in-out;
-}
-
-@keyframes changetext {
-    0%{
-        content: 'React JS: The Complete Guide, Udemy (2022)';
-        font-size: 1.5rem;
-    }
-    13%{
-        opacity: 0;
-    }
-    25%{
-        content: 'Web Development (PHP and MySQL), Testbook (2021-22)';
-        font-size: 1.5rem;
-        opacity: 1;
-    }
-    37%{
-        opacity: 0;
-    }
-    50%{
-        content: 'MERN Stack: CodeWithHarry YouTube (2022)';
-        font-size: 1.5rem;
-        opacity: 1;
-    }
-    62%{
-        opacity: 0;
-    }
-    75%{
-        content: 'SaSS: LamaDev YouTube (2022)';
-        font-size: 1.5rem;
-        opacity: 1;
-    }
-    88%{
-        opacity: 0;
-    }
-    100%{
-        content: 'The Complete JavaScript Course, Udemy (2022)';
-        font-size: 1.5rem;
-        opacity: 1;
-    }
 }
 
 .img-skilled {
@@ -91,53 +46,15 @@
     }
 
     .skill-cont {
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
         font-size: 1rem;
-        padding-top: 50px;
+        padding-top: 70px;
     }
 
     .img-skilled {
         height: 60px;
         width: 60px;
-    }
-    @keyframes changetext {
-        0%{
-            content: 'React JS: The Complete Guide, Udemy (2022)';
-            font-size: 0.7rem;
-        }
-        13%{
-            opacity: 0;
-        }
-        25%{
-            content: 'Web Development (PHP and MySQL), Testbook (2021-22)';
-            font-size: 0.7rem;
-            opacity: 1;
-        }
-        37%{
-            opacity: 0;
-        }
-        50%{
-            content: 'MERN Stack: CodeWithHarry YouTube (2022)';
-            font-size: 0.7rem;
-            opacity: 1;
-        }
-        62%{
-            opacity: 0;
-        }
-        75%{
-            content: 'SaSS: LamaDev YouTube (2022)';
-            font-size: 0.7rem;
-            opacity: 1;
-        }
-        88%{
-            opacity: 0;
-        }
-        100%{
-            content: 'The Complete JavaScript Course, Udemy (2022)';
-            font-size: 0.7rem;
-            opacity: 1;
-        }
     }
 }
 
@@ -197,15 +114,5 @@
 
     to {
         transform: rotate(360deg);
-    }
-}
-
-@keyframes rotator01 {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(0deg);
     }
 }
