@@ -1,4 +1,34 @@
-.bg-theme{
-    background: rgb(129,0,242);
-background: linear-gradient(356deg, rgba(129,0,242,1) 47%, rgba(214,72,235,1) 100%);
+.bg-theme {
+    background: rgb(129, 0, 242);
+    background: linear-gradient(356deg, rgba(129, 0, 242, 1) 47%, rgba(214, 72, 235, 1) 100%);
+}
+.heading_cont{
+    position: relative;
+}
+.img-box {
+    width: 95%;
+    margin: 10px auto;
+    border-radius: 12px;
+    object-fit: cover;
+    overflow: hidden;
+    
+}
+.prod_name{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    background: white;
+    border-radius: 15px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: max-content;
+    padding: 0 15px;
+    border: 2px solid black;
 }

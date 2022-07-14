@@ -137,6 +137,7 @@
     border-radius: 50%;
     height: 100%;
     background-color: white;
+    object-fit: cover;
 }
 
 .img-container-intro {

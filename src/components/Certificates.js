@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import reactlogo from '../img/react.png';
 import node from '../img/node.png';
-import php from '../img/php.png';
+import firebase from '../img/firebase.png';
 import js from '../img/js.png';
 import mern from '../img/mern.png';
-import laravel from '../img/laravel.png';
+import tailwind from '../img/tailwind.jpg';
 import sass from '../img/sass.png';
 import docker from '../img/docker.png';
 import './certificates.css';
@@ -59,7 +59,7 @@ const Certificates = () => {
                         <img src={node} alt="" className="img-skilled" />
                     </div>
                     <div className="skill-four">
-                        <img src={php} alt="" className="img-skilled" />
+                        <img src={firebase} alt="" className="img-skilled" />
                     </div>
                     <div className="skill-five">
                         <img src={docker} alt="" className="img-skilled" />
@@ -71,7 +71,7 @@ const Certificates = () => {
                         <img src={mern} alt="" className="img-skilled" />
                     </div>
                     <div className="skill-eight">
-                        <img src={laravel} alt="" className="img-skilled" />
+                        <img src={tailwind} alt="" className="img-skilled" />
                     </div>
 
                 </div>

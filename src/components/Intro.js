@@ -22,8 +22,8 @@ const Intro = () => {
               <div className="fw-bold text-primary">JavaScript</div>
               <div className="fw-bold text-primary">SaSS</div>
               <div className="fw-bold text-primary">Bootstrap</div>
-              <div className="fw-bold text-primary">PHP</div>
-              <div className="fw-bold text-primary">Docker</div>
+              <div className="fw-bold text-primary">Firebase</div>
+              <div className="fw-bold text-primary">Tailwind CSS</div>
             </div>
           </div>
           <p className="mt-3">

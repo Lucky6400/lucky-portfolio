@@ -64,10 +64,10 @@ const About = () => {
                   <div className="col-8">
                     <h4 className='text-white fw-bolder'>React</h4>
                     <h4 className='text-white fw-bolder'>Node</h4>
-                    <h4 className='text-white fw-bolder'>PHP</h4>
+                    <h4 className='text-white fw-bolder'>DBs</h4>
                   </div>
                   <div className="col-4">
-                  <h4 className='text-white fw-bolder'>:76</h4>
+                  <h4 className='text-white fw-bolder'>:81</h4>
                   <h4 className='text-white fw-bolder'>:65</h4>
                   <h4 className='text-white fw-bolder'>:65</h4>
                   </div>
@@ -81,7 +81,7 @@ const About = () => {
         <h2 className="mt-5 mb-3" style={{ fontWeight: "800" }}>About Me</h2>
         <b>A brief intro to my background</b> <br /> <br />
         <p>
-          Hi there, I am Lucky Jain, a full stack web developer in JavaScript and PHP. I come from a small town of Central Province of India. I am a Computer Science graduate from Barkatullah University, Bhopal. I have been learning and doing Web Development soon after my graduation. I work as a Software Development Engineer and provide effective solutions using my skills. I was always enthusiastic about programming and I am a forever learner who believes in upgrading constantly.
+          Hi there, I am Lucky Jain, a full stack web developer in JavaScript. I come from a small town of Central Province of India. I am a Computer Science graduate from Barkatullah University, Bhopal. I have been learning and doing Web Development soon after my graduation. I work as a Software Development Engineer and provide effective solutions using my skills. I was always enthusiastic about programming and I am a forever learner who believes in upgrading constantly.
         </p>
         <div className="text-center text-primary">
           <a href="https://github.com/Lucky6400"><GitHubIcon style={{ fontSize: "4rem", margin: "5px" }} /></a>
