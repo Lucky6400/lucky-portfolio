@@ -5,6 +5,7 @@ import projectTwo from '../img/project2.png'
 import projectThree from '../img/project3.png'
 import projectFour from '../img/project4.png'
 import projectFive from '../img/project5.png'
+import projectSix from '../img/project6.png'
 
 const Products = () => {
     return (
@@ -34,6 +35,10 @@ const Products = () => {
                 <Productlist img={projectFive} name="Admin Dashboard"
                     link={"#"}
                     description="A full stack admin dashboard built using React JS, firebase, SaSS and Bootstrap 5. It has features of Authentication, CRUD, Image upload. Design is extremely eye pleasing and I also used Material UI charts, tables, icons, and other components. This is work in progress."
+                />
+                 <Productlist img={projectSix} name="React Social Media"
+                    link={"https://lucky-social.netlify.app/"}
+                    description="A full stack socail media built using React JS, firebase and Tailwind CSS. It has features of Authentication, CRUD, Image upload. You can set profile picture, upload posts with photo. Realtime data fetching is available."
                 />
 
             </div>
