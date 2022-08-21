@@ -10,7 +10,7 @@ const About = () => {
     <div className="mt-4 row justify-content-center" id="about">
       <div className="col-lg-5 about-left mx-3">
         {/* <img src={costa} alt="" className="col-lg-6 mt-5 img-s"/> */}
-        <div className="card">
+        <div className="card shadow-lg">
           <div className="card-blob-1">
           </div>
           <div className="card-blob-2">
@@ -83,10 +83,10 @@ const About = () => {
         <p>
           Hi there, I am Lucky Jain, a full stack web developer in JavaScript. I come from a small town of Central Province of India. I am a Computer Science graduate from Barkatullah University, Bhopal. I have been learning and doing Web Development soon after my graduation. I work as a Software Development Engineer and provide effective solutions using my skills. I was always enthusiastic about programming and I am a forever learner who believes in upgrading constantly.
         </p>
-        <div className="text-center text-primary">
-          <a href="https://github.com/Lucky6400"><GitHubIcon style={{ fontSize: "4rem", margin: "5px" }} /></a>
-          <a href="https://www.linkedin.com/in/lucky6400/"><LinkedInIcon style={{ fontSize: "4rem", margin: "5px" }} /></a>
-          <a href="https://www.instagram.com/lucky.jain_/"><InstagramIcon style={{ fontSize: "4rem", margin: "5px" }} /></a>
+        <div className="text-center">
+          <a href="https://github.com/Lucky6400"><GitHubIcon style={{ fontSize: "4rem", margin: "5px", color: "rgb(129, 0, 242)" }} /></a>
+          <a href="https://www.linkedin.com/in/lucky6400/"><LinkedInIcon style={{ fontSize: "4rem", margin: "5px", color: "rgb(129, 0, 242)" }} /></a>
+          <a href="https://www.instagram.com/lucky.jain_/"><InstagramIcon style={{ fontSize: "4rem", margin: "5px", color: "rgb(129, 0, 242)" }} /></a>
 
         </div>
       </div>

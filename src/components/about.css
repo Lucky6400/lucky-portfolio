@@ -14,7 +14,7 @@
 .about-left .card {
     background: rgb(129, 0, 242);
     background: linear-gradient(356deg, rgba(129, 0, 242, 1) 47%, rgba(214, 72, 235, 1) 100%);
-    border-radius: 15px;
+    border-radius: 0;
     width: 70%;
     padding: 30px 20px;
     border: 0px solid transparent;

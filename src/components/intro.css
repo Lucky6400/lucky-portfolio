@@ -14,7 +14,10 @@
 
 .work-w {
     height: 100%;
-    animation: move 4s ease-in-out infinite alternate;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(129, 0, 242);
+    padding-top: 10px;
 }
 
 .btn-download {
@@ -112,19 +115,6 @@
     }
 }
 
-@keyframes move {
-    from {
-        transform: translateY(0%)
-    }
-
-    to {
-        transform: translateY(-530%)
-    }
-}
-
-.work-w>.text-primary {
-    font-size: 2.5rem;
-}
 
 .right-int {
     display: flex;

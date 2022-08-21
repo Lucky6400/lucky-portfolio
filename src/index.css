@@ -2,16 +2,19 @@
     background: rgb(129, 0, 242);
     background: linear-gradient(356deg, rgba(129, 0, 242, 1) 47%, rgba(214, 72, 235, 1) 100%);
 }
+.bg-theme-2 {
+    background: rgb(156, 42, 255);
+    background: linear-gradient(356deg, rgb(156, 43, 255) 47%, rgb(198, 70, 217) 100%);
+}
+
 .heading_cont{
     position: relative;
 }
 .img-box {
-    width: 95%;
-    margin: 10px auto;
-    border-radius: 12px;
-    object-fit: cover;
+    width: 100%;
+    margin: 0;
+    object-fit: contain;
     overflow: hidden;
-    
 }
 .prod_name{
     display: flex;
@@ -31,4 +34,108 @@
     width: max-content;
     padding: 0 15px;
     border: 2px solid black;
+}
+.productCard{
+    height: 200px;
+    cursor: pointer;
+}
+.productDesc{
+    transition: all 0.2s ease-in-out;
+    top: 100%;
+}
+.productCard:hover .productDesc{
+    top: 0%;
+}
+.companyImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+.companyImg img{
+    height: 100%;
+    object-fit: cover;
+}
+.fancyBlob{
+    border-radius: 74% 26% 55% 45% / 30% 79% 21% 70%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    animation: fancyblobs 35s ease-in-out infinite alternate;
+}
+.fancyBlob:nth-child(2){
+    width: 100px;
+    height: 100px;
+    top: 80px;
+    left: 50%;
+}
+.fancyBlob:nth-child(3){
+    width: 100px;
+    height: 100px;
+    top: 80px;
+    left: 50%;
+}
+.fancyBlob:nth-child(2){
+    width: 40px;
+    height: 40px;
+    top: 70%;
+    left: 40%;
+}
+@keyframes fancyblobs {
+    0% {
+        transform: translate(0px, 0px);
+        border-radius: 34% 66% 100% 0% / 30% 42% 58% 70% ;
+    }
+
+    25% {
+        transform: translate(125px, 0px);
+        border-radius:34% 66% 33% 67% / 30% 42% 58% 70% ;
+    }
+
+    50% {
+        transform: translate(-40px, -40px);
+        border-radius: 33% 67% 33% 67% / 25% 42% 58% 75% ;
+    }
+
+    75% {
+        transform: translate(145px, 40px);
+       border-radius: 73% 27% 33% 67% / 25% 42% 58% 75% ;
+    }
+
+    100% {
+        transform: translate(-20px, 20px);
+      
+        border-radius:34% 66% 33% 67% / 30% 42% 58% 70% ;
+    }
+}
+.exp-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.exp-detail li{
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.301);
+    padding: 10px 0;
+    z-index: 2;
+}
+.btn-theme-toggler{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    outline: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+#body{
+    transition: all 0.5s ease-in-out;
 }

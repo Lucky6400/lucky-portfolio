@@ -41,11 +41,11 @@ const Certificates = () => {
                 <div className="skill-cont">
                     <div className="skill-text-cont">
                         <TextTransition
-                        text={TEXTS[index % TEXTS.length]}
-                        springConfig={presets.stiff}
-                    />
+                            text={TEXTS[index % TEXTS.length]}
+                            springConfig={presets.stiff}
+                        />
                     </div>
-                    
+
                 </div>
                 <div className="circular-skill">
 

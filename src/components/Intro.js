@@ -1,9 +1,32 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './intro.css'
 import diego from '../img/introPhoto.png'
 import resume from '../other/resume.pdf'
+import TextTransition, { presets } from "react-text-transition";
+
+const SKILLS = [
+  "Node JS",
+  "JavaScript",
+  "React JS",
+  "SaSS",
+  "Tailwind CSS",
+  "REST APIs",
+  "MongoDB",
+  "MySQL", 
+  "HTML5",
+  "CSS3"
+];
 
 const Intro = () => {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() =>
+      setIndex(index => index + 1),
+      3000 // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
   return (
 
 
@@ -17,13 +40,10 @@ const Intro = () => {
           <h1 className="fs-name">Lucky Jain</h1>
           <div className="work">
             <div className="work-w">
-              <div className="fw-bold text-primary">React</div>
-              <div className="fw-bold text-primary">Node</div>
-              <div className="fw-bold text-primary">JavaScript</div>
-              <div className="fw-bold text-primary">SaSS</div>
-              <div className="fw-bold text-primary">Bootstrap</div>
-              <div className="fw-bold text-primary">Firebase</div>
-              <div className="fw-bold text-primary">Tailwind CSS</div>
+              <TextTransition
+                text={SKILLS[index % SKILLS.length]}
+                springConfig={presets.stiff}
+              />
             </div>
           </div>
           <p className="mt-3">
