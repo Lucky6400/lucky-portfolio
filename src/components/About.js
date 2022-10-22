@@ -68,8 +68,8 @@ const About = () => {
                   </div>
                   <div className="col-4">
                   <h4 className='text-white fw-bolder'>:81</h4>
-                  <h4 className='text-white fw-bolder'>:65</h4>
-                  <h4 className='text-white fw-bolder'>:65</h4>
+                  <h4 className='text-white fw-bolder'>:71</h4>
+                  <h4 className='text-white fw-bolder'>:60</h4>
                   </div>
                 </div>
               </div>

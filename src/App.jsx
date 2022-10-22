@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Certificates from './components/Certificates';
 import Experience from './components/Experience';
 import { useEffect } from 'react';
+import Skills from './components/Skills';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
       <Intro />
       <About />
       <Experience />
+      <Skills/>
       <Products />
       <Certificates />
       <Contact />

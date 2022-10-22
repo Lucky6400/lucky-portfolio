@@ -16,7 +16,7 @@ const TEXTS = [
     "React JS: The Complete Guide , Udemy(2022)",
     "SaSS: Full Course, FreeCodeCamp YouTube (2022)",
     "The Complete JavaScript Course, Udemy (2022)",
-    "Getting Started with Docker, Simplilearn (2022)"
+    "Next JS Crash Course - Sonny Sangha (YouTube) 17hrs"
 ];
 
 const Certificates = () => {

@@ -1,0 +1,38 @@
+.circle-bar {
+    position: relative;
+}
+
+.circle-text {
+    position: absolute;
+    width: 75%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    font-size: 30px;
+    color: #8100F2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+    height: 75%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.img-in-bar{
+    object-fit: cover;
+}
+.circle-text:hover {
+    opacity: 1;
+}
+.w-lg-50{
+    width: 50%;
+}
+@media only screen and (min-width: 240px) and (max-width: 640px){
+    .w-lg-50{
+        width: 100%;
+    }
+}
