@@ -50,7 +50,7 @@ export const skillsData = [
         name: 'REST APIs'
     },
     {
-        img: 'https://tailwindcss.com/_next/static/media/social-square.eab77323.jpg',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png',
         value: 99,
         name: 'Tailwind CSS'
     },

@@ -6,7 +6,7 @@ const Productlist = ({ name, description, img, link }) => {
     <div className="col-lg-3 productCard mx-3 p-0 rounded-0 shadow-lg my-3 position-relative overflow-hidden bg-theme">
       <div className="heading_cont">
         <div className="img-box">
-          <img src={img} alt="" className="w-100" />
+          <img src={img} alt="" className="w-100" style={{height: '100%'}} />
           
         </div>
       </div>

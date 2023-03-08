@@ -21,15 +21,15 @@ export const projects = [
     },
     {
         img: projectThree,
-        link: "#",
-        name: "React LinkedIn Clone",
-        description: "A LinkedIn Clone built using React and Firebase and bootstrap 5. Used Redux for Authentication, Firebase as a database. You can create a post, sign up, sign in, add profile picture. The UI design looks exactly like Linkedin."
+        link: "https://shopnext-website-next.vercel.app/",
+        name: "Next JS ECommerce Website",
+        description: "Full stack ecommerce app built using next js, next-auth, redux and  firebase. You can add product to cart, signin using google."
     },
     {
         img: projectFour,
-        link: "#",
-        name: "Google Keep Clone",
-        description: "A Google Keep Clone built using MERN Stack and Bootstrap 5. Used Redux for State Management, MongoDB as a database. You can create, read, update and delete a todo, sign up, sign in. The UI design looks almost like Google Keep. This is not hosted anywhere."
+        link: "https://insta-clone-next-lucky.vercel.app/",
+        name: "Full Stack instagram clone Next js",
+        description: "Create Post, Like, Comment, Google Auth. NextJS, Tailwind CSS, Recoil (though I won't ever use in future), and Next Auth."
     },
     {
         img: projectFive,

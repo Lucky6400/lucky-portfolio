@@ -13,7 +13,7 @@
 .img-box {
     width: 100%;
     margin: 0;
-    object-fit: contain;
+    object-fit: cover;
     overflow: hidden;
 }
 .prod_name{

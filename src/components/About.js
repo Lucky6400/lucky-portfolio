@@ -55,7 +55,7 @@ const About = () => {
                   <div className="col-4">
                   <h4 className='text-white fw-bolder'>:95</h4>
                   <h4 className='text-white fw-bolder'>:89</h4>
-                  <h4 className='text-white fw-bolder'>:82</h4>
+                  <h4 className='text-white fw-bolder'>:88</h4>
                   </div>
                 </div>
               </div>
@@ -67,8 +67,8 @@ const About = () => {
                     <h4 className='text-white fw-bolder'>DBs</h4>
                   </div>
                   <div className="col-4">
+                  <h4 className='text-white fw-bolder'>:85</h4>
                   <h4 className='text-white fw-bolder'>:81</h4>
-                  <h4 className='text-white fw-bolder'>:71</h4>
                   <h4 className='text-white fw-bolder'>:60</h4>
                   </div>
                 </div>

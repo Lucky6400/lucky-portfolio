@@ -33,7 +33,7 @@ export const experienceData = [
         work: [
             `Work on Lapps (Leadsquared Apps) to solve client problems. (Node js)`,
             `Build Custom UI and integrate Lapps (REST APIs) into the frontend. (React js)`,
-            `Approach and fix a wide range of issues on both backend and frontend side.`,
+            `I worked on 2nd biggest account of the company, which consisted of over 500 FILES of code and I was the only dedicated developer on this project.`,
             `Collaborate with Lead Software Engineers to review and refactor code, make it efficient and reduce the time and space complexity of algorithms.`
         ]
     },
